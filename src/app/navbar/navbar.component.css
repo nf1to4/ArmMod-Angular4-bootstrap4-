@@ -1,0 +1,32 @@
+.mod-nav{
+    right: 0;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.nav-mod{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,.8) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,.8) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.navbar-nav .nav-link{
+    font-weight: 600;
+    text-shadow: 2px 2px 6px rgba(255,255,255,.5);
+}
+
+.navbar .navbar-nav .active>.nav-link, .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.open, .navbar .navbar-nav .open>.nav-link{
+    color: #ad232e;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+
+.collapse.show {
+    display: block;
+    font-weight: 600;
+}

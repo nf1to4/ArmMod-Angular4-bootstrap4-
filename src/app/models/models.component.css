@@ -1,0 +1,49 @@
+.changer{
+    background: black;
+    margin: 0 auto;
+    justify-content: center;
+    border: none;
+}
+
+.nav-link{
+    color: rgba(172,102,26,1);
+    margin: 0 auto;
+    border-radius: 0;
+    padding: 1rem;
+}
+
+.nav-link:hover{
+    border: 1px solid transparent;
+    line-height: 0;
+    color: rgba(172,102,26,1);
+}
+
+.nav-link .active{
+    background: transparent;
+}
+
+.card-style{
+    margin-top: 1rem;
+    border: none;
+    overflow: hidden;
+
+    color: #ad232e;
+}
+
+.card-style p{
+    color: black;
+}
+
+.card-style img{
+    overflow: hidden;
+}
+
+.card-style img:hover{
+    -ms-transform: scale(1.1, 1.1); /* IE 9 */
+    -webkit-transform: scale(1.1, 1.1); /* Safari */
+    transform: scale(1.1, 1.1);
+}
+
+.container-fluid{
+    width: 90%;
+}

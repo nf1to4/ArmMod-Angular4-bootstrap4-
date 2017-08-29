@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blog</title>
+
+    <!-- Lato Font -->
+    <link href="Blog_files/css.css" rel="stylesheet" type="text/css">
+
+    <!-- Stylesheet -->
+    <link href="Blog_files/gallery-materialize.css" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="Blog_files/icon.css" rel="stylesheet">
+
+    <meta name="shopify-checkout-api-token" content="6aacc581eb2b41d74f03c38d3c985dba">
+<script async="" src="Blog_files/analytics.js"></script><script type="text/javascript" async="" src="Blog_files/trekkie.js"></script><script type="text/javascript">
+//<![CDATA[
+      var Shopify = Shopify || {};
+      Shopify.shop = "materialize-themes.myshopify.com";
+      Shopify.theme = {"name":"debut","id":133945025,"theme_store_id":796,"role":"main"};
+      Shopify.theme.handle = "null";
+      Shopify.theme.style = {"id":null,"handle":null};
+
+//]]>
+</script><script id="__st">
+//<![CDATA[
+var __st={"a":17758583,"offset":-25200,"reqid":"e6f16315-42ae-44eb-835f-c57f2cef5faa","pageurl":"themes.materializecss.com\/pages\/blog","s":"pages-199725505","u":"5e74ddc82834","p":"page","rtyp":"page","rid":199725505};
+//]]>
+</script><script src="Blog_files/shopify_stats.js" type="text/javascript" async="async"></script>
+<meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/17758583/digital_wallets/dialog">
+<script src="Blog_files/ga_urchin_forms-668547562549a84f5dfa01ef82607987f85ecbe1c8301.js" defer="defer"></script>
+      <script type="text/javascript">
+        
+      window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+      window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+      window.ShopifyAnalytics.meta.currency = 'USD';
+      var meta = {"page":{"pageType":"page","resourceType":"page","resourceId":199725505}};
+      for (var attr in meta) {
+        window.ShopifyAnalytics.meta[attr] = meta[attr];
+      }
+    
+      </script>
+
+      <script type="text/javascript">
+        window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+          
+        };
+      </script>
+
+      <script type="text/javascript" class="analytics">
+        (window.gaDevIds=window.gaDevIds||[]).push('BwiEti');
+        
+
+        (function () {
+          var customDocumentWrite = function(content) {
+            var jquery = null;
+
+            if (window.jQuery) {
+              jquery = window.jQuery;
+            } else if (window.Checkout && window.Checkout.$) {
+              jquery = window.Checkout.$;
+            }
+
+            if (jquery) {
+              jquery('body').append(content);
+            }
+          };
+
+          var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+          if (trekkie.integrations) {
+            return;
+          }
+          trekkie.methods = [
+            'identify',
+            'page',
+            'ready',
+            'track',
+            'trackForm',
+            'trackLink'
+          ];
+          trekkie.factory = function(method) {
+            return function() {
+              var args = Array.prototype.slice.call(arguments);
+              args.unshift(method);
+              trekkie.push(args);
+              return trekkie;
+            };
+          };
+          for (var i = 0; i < trekkie.methods.length; i++) {
+            var key = trekkie.methods[i];
+            trekkie[key] = trekkie.factory(key);
+          }
+          trekkie.load = function(config) {
+            trekkie.config = config;
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.onerror = function(e) {
+              (new Image()).src = '//v.shopify.com/internal_errors/track?error=trekkie_load';
+            };
+            script.async = true;
+            script.src = 'https://cdn.shopify.com/s/javascripts/tricorder/trekkie.storefront.min.js?v=2017.03.29.1';
+            var first = document.getElementsByTagName('script')[0];
+            first.parentNode.insertBefore(script, first);
+          };
+          trekkie.load(
+            {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":17758583,"isMerchantRequest":null,"themeId":133945025,"themeCityHash":4986562952070114821}},"Performance":{"navigationTimingApiMeasurementsEnabled":true,"navigationTimingApiMeasurementsSampleRate":0.1},"Google Analytics":{"trackingId":"UA-56218128-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Session Attribution":{}}
+          );
+
+          var loaded = false;
+          trekkie.ready(function() {
+            if (loaded) return;
+            loaded = true;
+
+            window.ShopifyAnalytics.lib = window.trekkie;
+            
+      ga('require', 'linker');
+      function addListener(element, type, callback) {
+        if (element.addEventListener) {
+          element.addEventListener(type, callback);
+        }
+        else if (element.attachEvent) {
+          element.attachEvent('on' + type, callback);
+        }
+      }
+      function decorate(event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement;
+        if (target && (target.getAttribute('action') || target.getAttribute('href'))) {
+          ga(function (tracker) {
+            var linkerParam = tracker.get('linkerParam');
+            document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
+          });
+        }
+      }
+      addListener(window, 'load', function(){
+        for (var i=0; i < document.forms.length; i++) {
+          var action = document.forms[i].getAttribute('action');
+          if(action && action.indexOf('/cart') >= 0) {
+            addListener(document.forms[i], 'submit', decorate);
+          }
+        }
+        for (var i=0; i < document.links.length; i++) {
+          var href = document.links[i].getAttribute('href');
+          if(href && href.indexOf('/checkout') >= 0) {
+            addListener(document.links[i], 'click', decorate);
+          }
+        }
+      });
+    
+
+            var originalDocumentWrite = document.write;
+            document.write = customDocumentWrite;
+            try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+            document.write = originalDocumentWrite;
+
+            
+        window.ShopifyAnalytics.lib.page(
+          null,
+          {"pageType":"page","resourceType":"page","resourceId":199725505}
+        );
+      
+            
+          });
+
+          
+      var eventsListenerScript = document.createElement('script');
+      eventsListenerScript.async = true;
+      eventsListenerScript.src = "//cdn.shopify.com/s/assets/shop_events_listener-9410288c486c406bc38edb97003bb123d375112c2b7e037d65afabae7c905e02.js";
+      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+    
+        })();
+      </script><script async="" src="Blog_files/shop_events_listener-9410288c486c406bc38edb97003bb123d375112c.js"></script>
+    
+<script id="apple-pay-shop-capabilities" type="application/json">{"shopId":17758583,"countryCode":"US","currencyCode":"USD","merchantCapabilities":["supports3DS"],"merchantId":"gid:\/\/shopify\/Shop\/17758583","merchantName":"Materialize Themes","requiredBillingContactFields":["postalAddress","email"],"requiredShippingContactFields":["postalAddress","email"],"shippingType":"shipping","supportedNetworks":["visa","masterCard","amex","discover"]}</script>
+<meta id="in-context-paypal-metadata" data-merchant-id="972FMYYC2E548" data-environment="production" data-locale="en_US" data-redirect-url="">
+<script src="Blog_files/express_buttons-f0b050cded084355eafcaccd6703948e8c3fca359e1f0.js" defer="defer" crossorigin="anonymous" integrity="sha256-8LBQze0IQ1Xq/KzNZwOUjow/yjWeHw0+fM1TG/YBvw0="></script><script>
+//<![CDATA[
+      window.Shopify = window.Shopify || {};
+      window.Shopify.Checkout = window.Shopify.Checkout || {};
+      window.Shopify.Checkout.rememberMeHost = "remember-me.shopifycloud.com";
+      window.Shopify.Checkout.rememberMeAccessToken = "SWVHOGhSSUVXc2szWE85U3lxRmxidEdISEtrUkhXaFJaQk5RN1N4eFZxQW53OWsvejZKTGdmaW8vZTJnMmZZMS0tT0txSGdBUXc0L0JqSE96eDMvc09OZz09--dae095da66eff488a422104b91bc879ad89006f2";
+
+//]]>
+</script>
+
+<script id="payment-instruments-configuration" type="application/json">{"shopId":17758583,"domain":"materialize-themes.myshopify.com"}</script>
+  <link rel="canonical" href="https://themes.materializecss.com/pages/blog">
+</head>
+
+  <body class="blog" style="">
+
+    <!-- Navbar and Header -->
+    <nav class="nav-extended an">
+      <div class="nav-background">
+        <div class="ea k" style="background-image: url('//cdn.shopify.com/s/files/1/1775/8583/t/1/assets/icon-seamless.png?6815165223135306698');"></div>
+      </div>
+      <div class="nav-wrapper db">
+        <a href="https://themes.materializecss.com/pages/demo" class="brand-logo"><i class="material-icons">camera</i>Gallery</a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="bt hide-on-med-and-down">
+          <li><a href="https://themes.materializecss.com/pages/demo">Gallery</a></li>
+          <li><a href="https://themes.materializecss.com/pages/dark-theme">Dark Theme</a></li>
+          <li class="k"><a href="https://themes.materializecss.com/pages/blog">Blog</a></li>
+          <li><a href="https://themes.materializecss.com/pages/docs">Docs</a></li>
+          <li><a class="dropdown-button" href="#" data-activates="feature-dropdown" data-beloworigin="true" data-constrainwidth="false">Features<i class="material-icons bt">arrow_drop_down</i></a><ul id="feature-dropdown" class="dropdown-content">
+          <li><a href="https://themes.materializecss.com/pages/full-header">Fullscreen Header</a></li>
+          <li><a href="https://themes.materializecss.com/pages/horizontal">Horizontal Style</a></li>
+          <li><a href="https://themes.materializecss.com/pages/no-image">No Image Expand</a></li>
+        </ul></li>
+        </ul>
+        <!-- Dropdown Structure -->
+        
+
+        <div class="nav-header de">
+          <h1>BLOG</h1>
+          <div class="ge">My life</div>
+        </div>
+      </div>
+
+      <!-- Fixed Masonry Filters -->
+      <div class="categories-wrapper an darken-1">
+        <div class="categories-container pin-top" style="top: 0px;">
+          <ul class="categories db">
+            <li class="k"><a href="#all">All</a></li>
+            <li><a href="#overhead">Overhead</a></li>
+            <li><a href="#sintel">Sintel</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <ul class="side-nav" id="nav-mobile" style="transform: translateX(-100%);">
+      <li><a href="https://themes.materializecss.com/pages/demo"><i class="material-icons">camera</i>Gallery</a></li>
+      <li><a href="https://themes.materializecss.com/pages/dark-theme"><i class="material-icons">brightness_3</i>Dark Theme</a></li>
+      <li class="k"><a href="https://themes.materializecss.com/pages/blog.html"><i class="material-icons">edit</i>Blog</a></li>
+      <li><a href="https://themes.materializecss.com/pages/docs"><i class="material-icons">school</i>Docs</a></li>
+      <li><a href="https://themes.materializecss.com/pages/full-header"><i class="material-icons">fullscreen</i>Fullscreen Header</a></li>
+      <li><a href="https://themes.materializecss.com/pages/horizontal"><i class="material-icons">swap_horiz</i>Horizontal Style</a></li>
+      <li><a href="https://themes.materializecss.com/pages/no-image"><i class="material-icons">texture</i>No Image Expand</a></li>
+    </ul>
+
+    <div id="portfolio" class="cx gray">
+      <div class="db">
+        <div class="b e" style="position: relative; height: 1255px;">
+          <div class="d hx hf gu gallery-item ce all" style="position: absolute; left: 0px; top: 0px;">
+            <div class="h blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">About</span>
+                <p>This is my blog where I talk about my everyday life. I typically like to post a couple times a week.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="d hx hf gu gallery-item gallery-expand ce overhead" style="position: absolute; left: 361px; top: 0px;" data-fillscreen="true"><div class="placeholder">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray" style="height: 300px;">
+                <img src="Blog_files/overhead.jpg" crossorigin="anonymous" alt="placeholder">
+              <div class="gradient"></div></a>
+              <div class="gallery-header">
+                <span>Workspace</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Grapefruit</h3>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal
+ yr pop-up selfies health goth. Typewriter scenester hammock truffaut 
+meditation, squid before they sold out polaroid portland tousled 
+taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next 
+level roof party crucifix narwhal kinfolk you probably haven't heard of 
+them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard 
+flannel. Drinking vinegar marfa you probably haven't heard of them 
+consequat post-ironic, shabby chic williamsburg raclette vaporware 
+readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3
+ wolf moon, proident elit raclette chambray consequat edison bulb four 
+loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa 
+vaporware selfies keytar. Actually yuccie ennui flannel single-origin 
+coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon
+ vinyl occaecat.</p>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div></div>
+          <div class="d hx hf gu gallery-item gallery-expand ce overhead" style="position: absolute; left: 723px; top: 0px;" data-fillscreen="true"><div class="placeholder">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray" style="height: 400px;">
+                <img src="Blog_files/overhead2.jpg" crossorigin="anonymous" alt="placeholder">
+              <div class="gradient"></div></a>
+              <div class="gallery-header">
+                <span>Studio</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Grapefruit</h3>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal
+ yr pop-up selfies health goth. Typewriter scenester hammock truffaut 
+meditation, squid before they sold out polaroid portland tousled 
+taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next 
+level roof party crucifix narwhal kinfolk you probably haven't heard of 
+them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard 
+flannel. Drinking vinegar marfa you probably haven't heard of them 
+consequat post-ironic, shabby chic williamsburg raclette vaporware 
+readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3
+ wolf moon, proident elit raclette chambray consequat edison bulb four 
+loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa 
+vaporware selfies keytar. Actually yuccie ennui flannel single-origin 
+coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon
+ vinyl occaecat.</p>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div></div>
+          <div class="d hx hf gu gallery-item gallery-expand ce sintel" style="position: absolute; left: 0px; top: 233px;" data-fillscreen="true"><div class="placeholder">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray" style="height: 300px;">
+                <img src="Blog_files/sintel-bamboo.jpg" crossorigin="anonymous" alt="placeholder">
+              <div class="gradient"></div></a>
+              <div class="gallery-header">
+                <span>Bamboo</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Grapefruit</h3>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal
+ yr pop-up selfies health goth. Typewriter scenester hammock truffaut 
+meditation, squid before they sold out polaroid portland tousled 
+taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next 
+level roof party crucifix narwhal kinfolk you probably haven't heard of 
+them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard 
+flannel. Drinking vinegar marfa you probably haven't heard of them 
+consequat post-ironic, shabby chic williamsburg raclette vaporware 
+readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3
+ wolf moon, proident elit raclette chambray consequat edison bulb four 
+loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa 
+vaporware selfies keytar. Actually yuccie ennui flannel single-origin 
+coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon
+ vinyl occaecat.</p>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div></div>
+          <div class="d hx hf gu gallery-item gallery-expand ce sintel" style="position: absolute; left: 361px; top: 385px;" data-fillscreen="true"><div class="placeholder">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray" style="height: 300px;">
+                <img src="Blog_files/sintel-bedroom.png" crossorigin="anonymous" alt="placeholder">
+              <div class="gradient"></div></a>
+              <div class="gallery-header">
+                <span>Bedroom</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Grapefruit</h3>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal
+ yr pop-up selfies health goth. Typewriter scenester hammock truffaut 
+meditation, squid before they sold out polaroid portland tousled 
+taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next 
+level roof party crucifix narwhal kinfolk you probably haven't heard of 
+them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard 
+flannel. Drinking vinegar marfa you probably haven't heard of them 
+consequat post-ironic, shabby chic williamsburg raclette vaporware 
+readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3
+ wolf moon, proident elit raclette chambray consequat edison bulb four 
+loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa 
+vaporware selfies keytar. Actually yuccie ennui flannel single-origin 
+coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon
+ vinyl occaecat.</p>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div></div>
+          <div class="d hx hf gu gallery-item gallery-expand ce overhead" style="position: absolute; left: 723px; top: 485px;" data-fillscreen="true"><div class="placeholder">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray" style="height: 350px;">
+                <img src="Blog_files/overhead3.jpg" crossorigin="anonymous" alt="placeholder">
+              <div class="gradient"></div></a>
+              <div class="gallery-header">
+                <span>Workshop</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Grapefruit</h3>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal
+ yr pop-up selfies health goth. Typewriter scenester hammock truffaut 
+meditation, squid before they sold out polaroid portland tousled 
+taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next 
+level roof party crucifix narwhal kinfolk you probably haven't heard of 
+them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard 
+flannel. Drinking vinegar marfa you probably haven't heard of them 
+consequat post-ironic, shabby chic williamsburg raclette vaporware 
+readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3
+ wolf moon, proident elit raclette chambray consequat edison bulb four 
+loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa 
+vaporware selfies keytar. Actually yuccie ennui flannel single-origin 
+coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon
+ vinyl occaecat.</p>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div></div>
+          <div class="d hx hf gu gallery-item gallery-expand ce overhead" style="position: absolute; left: 0px; top: 618px;" data-fillscreen="true"><div class="placeholder">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray" style="height: 400px;">
+                <img src="Blog_files/overhead5.jpg" crossorigin="anonymous" alt="placeholder">
+              <div class="gradient" style=""></div></a>
+              <div class="gallery-header">
+                <span>Kitchen</span>
+              </div>
+              <div class="gallery-body" style="margin-top: 184px; padding: 40px; min-height: 557px; display: none;">
+                <div class="title-wrapper">
+                  <h3>Grapefruit</h3>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal
+ yr pop-up selfies health goth. Typewriter scenester hammock truffaut 
+meditation, squid before they sold out polaroid portland tousled 
+taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next 
+level roof party crucifix narwhal kinfolk you probably haven't heard of 
+them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard 
+flannel. Drinking vinegar marfa you probably haven't heard of them 
+consequat post-ironic, shabby chic williamsburg raclette vaporware 
+readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3
+ wolf moon, proident elit raclette chambray consequat edison bulb four 
+loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa 
+vaporware selfies keytar. Actually yuccie ennui flannel single-origin 
+coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon
+ vinyl occaecat.</p>
+              </div>
+              <div class="gallery-action" style="top: 184px;">
+                <a class="btn-floating btn-large waves-effect waves-light" style="background-color: rgb(64, 71, 66);"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div></div>
+          <div class="d hx hf gu gallery-item gallery-expand ce sintel" style="position: absolute; left: 361px; top: 770px;" data-fillscreen="true"><div class="placeholder">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray" style="height: 300px;">
+                <img src="Blog_files/sintel-snowscape.jpg" crossorigin="anonymous" alt="placeholder">
+              <div class="gradient" style=""></div></a>
+              <div class="gallery-header">
+                <span>Snowscape</span>
+              </div>
+              <div class="gallery-body" style="margin-top: 184px; padding: 40px; min-height: 557px; display: none;">
+                <div class="title-wrapper">
+                  <h3>Grapefruit</h3>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal
+ yr pop-up selfies health goth. Typewriter scenester hammock truffaut 
+meditation, squid before they sold out polaroid portland tousled 
+taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next 
+level roof party crucifix narwhal kinfolk you probably haven't heard of 
+them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard 
+flannel. Drinking vinegar marfa you probably haven't heard of them 
+consequat post-ironic, shabby chic williamsburg raclette vaporware 
+readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3
+ wolf moon, proident elit raclette chambray consequat edison bulb four 
+loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa 
+vaporware selfies keytar. Actually yuccie ennui flannel single-origin 
+coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon
+ vinyl occaecat.</p>
+              </div>
+              <div class="gallery-action" style="top: 184px;">
+                <a class="btn-floating btn-large waves-effect waves-light" style="background-color: rgb(64, 65, 65);"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div></div>
+          <div class="d hx hf gu gallery-item gallery-expand ce overhead" style="position: absolute; left: 723px; top: 920px;" data-fillscreen="true"><div class="placeholder">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray" style="height: 250px;">
+                <img src="Blog_files/overhead4.jpg" crossorigin="anonymous" alt="placeholder">
+              <div class="gradient"></div></a>
+              <div class="gallery-header">
+                <span>Countertop</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Grapefruit</h3>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal
+ yr pop-up selfies health goth. Typewriter scenester hammock truffaut 
+meditation, squid before they sold out polaroid portland tousled 
+taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next 
+level roof party crucifix narwhal kinfolk you probably haven't heard of 
+them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard 
+flannel. Drinking vinegar marfa you probably haven't heard of them 
+consequat post-ironic, shabby chic williamsburg raclette vaporware 
+readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3
+ wolf moon, proident elit raclette chambray consequat edison bulb four 
+loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa 
+vaporware selfies keytar. Actually yuccie ennui flannel single-origin 
+coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon
+ vinyl occaecat.</p>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div></div>
+
+        </div>
+
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Core Javascript -->
+    <script src="Blog_files/jquery.js"></script>
+    <script src="Blog_files/materialize.js"></script>
+    <script src="Blog_files/gallery.js" crossorigin="anonymous"></script>
+
+  
+
+<iframe src="Blog_files/dialog.htm" style="position: fixed; top: 0px; left: 0px; z-index: 99999; height: 0px; width: 0px; border: 0px none;" scrolling="no" tabindex="-1" aria-hidden="true"></iframe><div class="hiddendiv common"></div><div class="drag-target" data-sidenav="nav-mobile" style="left: 0px; touch-action: pan-y;"></div></body></html>

@@ -1,0 +1,43 @@
+<div class="margin" id="models">
+  <!-- Nav tabs -->
+<ul class="nav nav-tabs changer" role="tablist">
+  <li class="nav-item text-center">
+    <a class="nav-link active" data-toggle="tab" href="#model" role="tab"><h4>Մոդելներ</h4></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#designers" role="tab"><h4>Դիզայներներ</h4></a>
+  </li>
+
+</ul>
+
+<!-- Tab panes -->
+
+<div class="tab-content">
+  <div class="tab-pane active" id="model" role="tabpanel">
+    <div class="container-fluid">
+<div class="row">
+  <div class="card col-lg-4 card-style" *ngFor="let model of people">
+    <img class="card-img-top img-fluid" src="{{model.image}}" alt="Armenian Fashion Models">
+    <div class="card-block">
+      <h4 class="card-title text-center">{{model.name}}</h4>
+      <p class="card-text">{{model.desc}}</p>
+    </div>
+  </div>
+</div>
+</div>                                                     
+  </div>
+  <div class="tab-pane" id="designers" role="tabpanel">
+        <div class="container-fluid">
+<div class="row">
+  <div class="card col-lg-4 card-style" *ngFor="let designer of designers">
+    <img class="card-img-top img-fluid" src="{{designer.image}}" alt="Armenian Fashion Models">
+    <div class="card-block">
+      <h4 class="card-title text-center">{{designer.name}}</h4>
+      <p class="card-text">{{designer.desc}}</p>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</div>

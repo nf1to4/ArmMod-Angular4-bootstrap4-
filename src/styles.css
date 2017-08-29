@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    transition: all .3s ease;
+}
+
+body{
+    width: 100%;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}

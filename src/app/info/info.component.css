@@ -1,0 +1,64 @@
+.fon-info{
+    width: 100%;
+    background: url('../../assets/img/fon.jpg') fixed no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.black{
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    z-index: 999999;
+}
+
+.black p{
+    font-weight: 400;
+    color: rgba(172,102,26,1);
+    font-size: 1.23rem;
+    line-height: 2rem;
+}
+
+.logo-center{
+    margin: 0 auto;
+}
+
+.logo-center img{
+    margin-top: 2rem;
+}
+
+.support{
+    padding: 2rem;
+    background: #101010;
+    color: rgba(255,255,255,0.2);
+}
+
+.ng{
+    border-left: 1px solid gray;
+}
+
+.ng h1{
+    font-size: 7rem;
+}
+
+.ng h6{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: -.7rem;
+}
+
+.sup{
+    margin-top: 3rem;
+}
+
+.af-logo{
+    margin: 2rem;
+    opacity: .5;
+}
+
+.footer{
+    width: 100%;
+    border-top: 4px solid rgba(172,102,26,1);
+    background: black;
+    color: rgba(172,102,26,1);
+    padding: 1.4rem;
+}
